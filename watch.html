@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="back-btn">⬅ Back</a>
+        <h1>Now Playing</h1>
+    </header>
+
+    <main>
+        <div class="video-container">
+            <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>Enjoy your episode!</p>
+    </footer>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const videoUrl = params.get('url');
+        document.getElementById("video-player").src = videoUrl;
+    </script>
+</body>
+</html>
