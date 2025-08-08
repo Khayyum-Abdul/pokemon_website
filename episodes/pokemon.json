@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Pokémon Season 1 Episode 1",
+        "thumbnail": "https://example.com/thumb1.jpg",
+        "url": "https://megaplay-link-or-animeapi.com/episode1"
+    },
+    {
+        "title": "Pokémon Season 1 Episode 2",
+        "thumbnail": "https://example.com/thumb2.jpg",
+        "url": "https://megaplay-link-or-animeapi.com/episode2"
+    }
+]
